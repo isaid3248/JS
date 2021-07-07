@@ -18,6 +18,7 @@ function collection(imgs) {
     }
     img.src = imgs[this.i];
   };
+  
   this.prev = function (element) {
     var img = document.getElementById(element);
     this.i--;
